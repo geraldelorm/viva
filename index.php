@@ -14,8 +14,7 @@
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
   </head>
-  <body>
-    <header>
+  <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <a class="navbar-brand" href="#"><strong>VIVA TRANSPORT</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +39,7 @@
           <a class="dropdown-item" href="admin/signin.php">Admin</a>
         </div>
   </nav>
-</header>
+  </header>
 
 <body>
 
@@ -80,7 +79,7 @@
           <div class="carousel-caption text-right">
             <h1>Find us anywhere in the world.</h1>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="booknow/index.html" role="button">Quick Reservation</a></p>
+            <p><a class="btn btn-lg btn-primary" href="booknow.php" role="button">Quick Reservation</a></p>
           </div>
         </div>
       </div>
