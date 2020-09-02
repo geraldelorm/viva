@@ -24,14 +24,21 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
       </ul>
-        <button class="btn btn-lg btn-primary" href="#" role="button">Log In</button>
-    </div>
+      <a class="btn btn-lg btn-success" href="booknow/index.html" role="button">Book Now</a>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Account
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="user/signin.php">User</a>
+          <a class="dropdown-item" href="admin/signin.php">Admin</a>
+        </div>
   </nav>
 </header>
 
@@ -53,7 +60,7 @@
           <div class="carousel-caption text-left">
             <h1>Affordable And Reliable.</h1>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            <p><a class="btn btn-lg btn-primary" href="user/signup.php" role="button">Sign up today</a></p>
           </div>
         </div>
       </div>
@@ -63,7 +70,7 @@
           <div class="carousel-caption">
             <h1>Book a bus for your team.</h1>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            <p><a class="btn btn-lg btn-primary" href="#more" role="button">Learn more</a></p>
           </div>
         </div>
       </div>
@@ -73,7 +80,7 @@
           <div class="carousel-caption text-right">
             <h1>Find us anywhere in the world.</h1>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <p><a class="btn btn-lg btn-primary" href="booknow/index.html" role="button">Quick Reservation</a></p>
           </div>
         </div>
       </div>
@@ -97,24 +104,24 @@
   <div class="container marketing" >
 
     <!-- Three columns of text below the carousel -->
-    <div class="row">
+    <div id="about"class="row">
       <div class="col-lg-4">
         <img src="./assets/img/round1.jpg" class="rounded-circle" width="140" height="140">
         <h2>Affordable</h2>
         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#more" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="./assets/img/round2.jpg" class="rounded-circle" width="140" height="140">
         <h2>Reliable</h2>
         <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#more" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="./assets/img/round3.jpg" class="rounded-circle" width="140" height="140">
         <h2>Fast</h2>
         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#more" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -123,7 +130,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div id="more" class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Need a catch the bus? <span class="text-muted">See busses that are going your way.</span></h2>
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
