@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <title>VIVA - Best Bus Booking System In Ghana.</title>
 
-    <!-- Tittle Icon -->
-    <link rel="icon" href="./assets/img/tittle.jpg" />
+    <!-- title Icon -->
+    <link rel="icon" href="./assets/img/title.jpg" />
 
     <!-- Bootstrap core CSS -->
     <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
