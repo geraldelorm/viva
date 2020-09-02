@@ -5,7 +5,7 @@ and MYSQL to build the backend of the application.
 
 The name VIVA was coined to be the name of this transport service provider.
 
-### This system is to be implemented using PHP and MYSQL technologies. The specific objectives of this Online Bus Ticket Reservation System project are:
+### This system is to be implemented using PHP and MYSQL technologies. The specific objectives of this Online Bus Ticket Reservation System project are as follows:
 
 1. Provide a web-based bus ticket reservation function where a customer can buy bus ticket through the online system without a need to queue up at the counter to purchase a ticket.
 
