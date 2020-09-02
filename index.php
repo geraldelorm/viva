@@ -30,7 +30,7 @@
             <a class="nav-link" href="#">Contact</a>
           </li>
       </ul>
-      <a class="btn btn-lg btn-success" href="booknow/index.html" role="button">Book Now</a>
+      <a class="btn btn-lg btn-success" href="booknow.php" role="button">Book Now</a>
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Account
