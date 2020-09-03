@@ -6,7 +6,7 @@
   <head>
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Signin Template · Bootstrap</title>
+    <title>VIVA · User Sign In</title>
     <!-- title Icon -->
     <link rel="icon" href="../assets/img/title.jpg" />
 
@@ -30,6 +30,7 @@
     <label>
       <input type="checkbox" value="remember-me"> Remember me
     </label>
+    <a href="signup.php">Haven't Signed up yet?</a>
   </div>
   <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
   <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>

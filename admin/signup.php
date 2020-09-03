@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Signin Template · Bootstrap</title>
+    <title>VIVA · User Sign Up</title>
     <!-- Title Icon -->
     <link rel="icon" href="../assets/img/title.jpg" />
 
@@ -18,21 +18,28 @@
     <!-- Custom styles for this template -->
     <link href="signin.css" rel="stylesheet">
   </head>
-  <body class="text-center">
+  <body >
     <form class="form-signin">
-  <img class="mb-4" src="../assets/img/title.jpg" alt="" width="72" height="72">
-  <h1 class="h3 mb-3 font-weight-normal">Admin Sign Up</h1>
-  <label for="inputEmail" class="sr-only">Email address</label>
+      <div class="text-center">
+        <img class="mb-4" src="../assets/img/title.jpg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Admin Sign Up</h1>
+      </div>
+  <label for="inputUsername">Full Name:</label>
+  <input type="name" id="inputName" class="form-control" placeholder="Full Name" required autofocus>
+  <label for="inputUsername">Username:</label>
+  <input type="username" id="inputUsername" class="form-control" placeholder="username" required autofocus>
+  <label for="inputEmail">Email address:</label>
   <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-  <label for="inputPassword" class="sr-only">Password</label>
+  <label for="inputPassword">Password:</label>
   <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-  <div class="checkbox mb-3">
-    <label>
-      <input type="checkbox" value="remember-me"> Remember me
-    </label>
+  <label for="inputPassword">Confirm Password:</label>
+  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>  
+  <div>
+    <a href="signin.php">Already Signed up?</a>
   </div>
+  <br>
   <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-  <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
+  <p class="mt-5 mb-3 text-muted text-center">&copy; 2017-2020</p>
 </form>
 </body>
 </html>
