@@ -21,7 +21,7 @@
   <body >
     <form class="form-signin">
       <div class="text-center">
-        <img class="mb-4" src="../assets/img/title.jpg" alt="" width="72" height="72">
+        <a href="../index.php"><img class="mb-4" src="../assets/img/title.jpg" alt="" width="72" height="72"></a>
         <h1 class="h3 mb-3 font-weight-normal">Admin Sign Up</h1>
       </div>
   <label for="inputUsername">Full Name:</label>
