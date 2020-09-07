@@ -35,7 +35,7 @@
   <form class="form-signin">
   <div class="form-row">
     <div>
-      <h2>FILL THE FORM BELOW TO SAVE A SEAT</h2>
+      <h2>QUICKLY FILL THE FORM BELOW TO SAVE A SEAT ON THE BUS </h2>
     </div>
     <hr>
     <div class="col-md-4 mb-3">
