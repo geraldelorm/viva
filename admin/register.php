@@ -14,7 +14,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $username_err = "Please enter a username.";
     } else{
         // Prepare a select statement
-        $sql = "SELECT id FROM users WHERE username = ?";
+        $sql = "SELECT id FROM admins WHERE username = ?";
         
         if($stmt = mysqli_prepare($link, $sql)){
             // Bind variables to the prepared statement as parameters
@@ -65,7 +65,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty($username_err) && empty($password_err) && empty($confirm_password_err)){
         
         // Prepare an insert statement
-        $sql = "INSERT INTO users (username, password) VALUES (?, ?)";
+        $sql = "INSERT INTO admins (username, password) VALUES (?, ?)";
          
         if($stmt = mysqli_prepare($link, $sql)){
             // Bind variables to the prepared statement as parameters
@@ -100,7 +100,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>VIVA · User Sign In</title>
     <!-- title Icon -->
-    <link rel="icon" href="../assets/img/users.jpeg" />
+    <link rel="icon" href="../assets/img/title.jpg" />
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
 
@@ -113,7 +113,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   <body>
   <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" class="form-signin">
       <div class="text-center">
-        <a href="../index.php"><img class="mb-4" src="../assets/img/users.jpeg" alt="" width="72" height="72"></a>
+        <a href="../index.php"><img class="mb-4" src="../assets/img/title.jpg" alt="" width="72" height="72"></a>
         <h1 class="h3 mb-3 font-weight-normal">User Sign Up</h1>
       </div>
   <label for="inputUsername">Full Name:</label>

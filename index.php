@@ -39,7 +39,7 @@
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
           <a class="dropdown-item" href="user/login.php">User</a>
-          <a class="dropdown-item" href="admin/signin.php">Admin</a>
+          <a class="dropdown-item" href="admin/login.php">Admin</a>
         </div>
   </nav>
   </header>
