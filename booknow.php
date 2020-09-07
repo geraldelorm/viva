@@ -27,8 +27,8 @@
       <ul class="navbar-nav mr-auto">
 
       </ul>
-      <a class="btn btn-lg btn-light" href="user/signin.php" role="button">Log In</a>
-      <a class="btn btn-lg btn-primary" href="user/signup.php" role="button">Sign Up</a>
+      <a class="btn btn-lg btn-light" href="user/login.php" role="button">Log In</a>
+      <a class="btn btn-lg btn-primary" href="user/register.php" role="button">Sign Up</a>
   </nav>
   </header>
 <body class="container">
