@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    color: black;
+    background: #506872;
+  }
