@@ -34,8 +34,8 @@
 <body class="container">
   <form class="form-signin">
   <div class="form-row">
-    <div >
-      <h2>QUICKLY FILL THE FORM BELOW TO BOOK A SEAT IN THE WAITING BUS</h2>
+    <div>
+      <h2>FILL THE FORM BELOW TO SAVE A SEAT</h2>
     </div>
     <hr>
     <div class="col-md-4 mb-3">
@@ -88,11 +88,11 @@
         <option value="7">Middle seat (8)</option>
         <option value="8">Middle seat (9)</option>
         <option value="9">Middle seat (10)</option>
-        <option value="10">Middle seat (12)</option>
-        <option value="11">Back seat (13)</option>
-        <option value="12">Back seat (14)</option>
-        <option value="13">Back seat (15)</option>
-        <option value="14">Back seat (16)</option>
+        <option value="10">Middle seat (11)</option>
+        <option value="11">Back seat (12)</option>
+        <option value="12">Back seat (13)</option>
+        <option value="13">Back seat (14)</option>
+        <option value="14">Back seat (15)</option>
       </select>
     </div>
   </div>
@@ -104,7 +104,7 @@
       </label>
     </div>
   </div>
-  <button class="btn btn-primary" type="submit">Proceed to payment</button>
+  <button class="btn btn-success" type="submit">Proceed to payment</button>
 </form>
 </body>
 </html>  
