@@ -108,11 +108,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body class="text-center">
   <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" class="form-signin">
     <a href="../index.php"><img class="mb-4" src="../assets/img/title.jpg" alt="" width="72" height="72"></a>
-    <h1 class="h3 mb-3 font-weight-normal">User Sign In</h1>
+    <h1 class="h3 mb-3 font-weight-normal">Administrator</h1>
 
     <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">    
       <label for="inputEmail" class="sr-only">Username</label>
-      <input type="text" name="username" value="<?php echo $username; ?>" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <input type="text" name="username" value="<?php echo $username; ?>" id="inputEmail" class="form-control" placeholder="Usernames" required autofocus>
       <span class="help-block"><?php echo $username_err; ?></span>    
     </div>
 
@@ -126,7 +126,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <label>
       <input type="checkbox" value="remember-me"> Remember me
     </label>
-    <a href="register.php">Haven't Signed up yet?</a>
+    <a href="register.php"><!--Haven't Signed up yet?--></a>
     </div>
     <button class="btn btn-lg btn-primary btn-block" value="Login" type="submit">Sign in</button>
     <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>

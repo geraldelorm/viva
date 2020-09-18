@@ -3,11 +3,13 @@
 require_once "config.php";
  
 // Define variables and initialize with empty values
-$username = $password = $confirm_password = "";
-$username_err = $password_err = $confirm_password_err = "";
+$name = $email = $username = $password = $confirm_password = "";
+$name_err = $email_err = $username_err = $password_err = $confirm_password_err = "";
+
  
 // Processing form data when form is submitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
+    
  
     // Validate username
     if(empty(trim($_POST["username"]))){
@@ -116,26 +118,32 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <a href="../index.php"><img class="mb-4" src="../assets/img/users.jpeg" alt="" width="72" height="72"></a>
         <h1 class="h3 mb-3 font-weight-normal">User Sign Up</h1>
       </div>
-  <label for="inputUsername">Full Name:</label>
-  <input type="name" id="inputName" class="form-control" placeholder="Full Name" required autofocus>
+    <div class="form-group <?php echo (!empty($name_err)) ? 'has-error' : ''; ?>">
+      <label for="inputUsername">Name</label>
+      <input type="name" name="name" value="<?php echo $name; ?>" id="inputName" class="form-control" placeholder="Full Name" required autofocus>
+      <span class="help-block"><?php echo $name_err; ?></span>
+    </div>
   
+    <div class="form-group <?php echo (!empty($email_err)) ? 'has-error' : ''; ?>">
+    <label for="inputEmail">Email</label>
+    <input type="email" name="email" value="<?php echo $email; ?>"id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+    <span class="help-block"><?php echo $email_err; ?></span>
+    </div>
+
   <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">  
-      <label for="inputUsername">Username:</label>
+      <label for="inputUsername">Username</label>
       <input type="text" name="username" value="<?php echo $username; ?>" id="inputUsername" class="form-control" placeholder="username" required autofocus>
       <span class="help-block"><?php echo $username_err; ?></span>
   </div>
-  
-  <label for="inputEmail">Email address:</label>
-  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-  
+    
   <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-      <label for="inputPassword">Password:</label>
+      <label for="inputPassword">Password</label>
       <input type="password" name="password" value="<?php echo $password; ?>" id="inputPassword" class="form-control" placeholder="Password" required>
       <span class="help-block"><?php echo $password_err; ?></span>
   </div>
 
   <div class="form-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
-      <label for="inputPassword">Confirm Password:</label>
+      <label for="inputPassword">Confirm Password</label>
       <input type="password" name="confirm_password" value="<?php echo $confirm_password; ?>" id="inputPassword" class="form-control" placeholder="Password" required>  
       <span class="help-block"><?php echo $confirm_password_err; ?></span>
   </div>
@@ -143,7 +151,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <a href="login.php">Already Signed up?</a>
   </div>
   <br>
-  <button class="btn btn-lg btn-primary btn-block" type="submit" value="Submit" >Sign Up</button>
+  <button class="btn btn-lg btn-primary btn-block" type="submit" value="Submit" name="sign_up">Sign Up</button>
   <p class="mt-5 mb-3 text-muted text-center">&copy; 2017-2020</p>
 </form>
 </body>
