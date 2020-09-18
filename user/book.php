@@ -124,7 +124,7 @@ if(isset($_POST['submit']))
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label>Choose Seat</label>
-                                                    <input type="text" name="seat" class="form-control" placeholder="NO. OF SEATS IN THE BUS">
+                                                    <input type="text" name="seat" class="form-control" placeholder="PICK A SEAT ">
                                                 </div>
                                             </div>
                                         </div>
@@ -140,7 +140,7 @@ if(isset($_POST['submit']))
                                             </select>
 <br>
                                             <div>
-                                            <label>Price</label>
+                                            <label>Rate</label>
                                             <input type="text">
                                             <img class="rounded-circle" width="100" height="100" src="../assets/img/visa.png" alt="">
                                             <img class="rounded-circle" width="100" height="100" src="../assets/img/master.jpg" alt="">

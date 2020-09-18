@@ -24,7 +24,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <title>VIVA - User</title>
 
     <!-- title Icon -->
-    <link rel="icon" href="../assets/img/title.jpg" />
+    <link rel="icon" href="../assets/img/users.jpeg" />
 
     <!-- Bootstrap core CSS -->
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -33,23 +33,18 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <link href="welcome.css" rel="stylesheet">
   </head>
   <header>
-  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-  <a class="btn" href="welcome.php"><h3>Welcome, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b></h3></a>    
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+  <h3>Welcome, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b></h3>    
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
-      <li>
-          <a class="btn" href="book.php">Book Now</a>
-        </li>
-        <li>
-          <a class="btn" href="reservations.php">My Reservations</a>
-        </li>
+
       </ul>
       <div class="dropdown">
         <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Account 
+          Account
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
           <a class="dropdown-item" href="reset-password.php">Reset</a>
@@ -63,16 +58,15 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   <div class="table-responsive container">
        <table id="zero_config" class="table table-striped table-bordered no-wrap">
                  <thead>
-                   <h2 class="text-center">MY BOOKINGS</h2>
-                      <tr>
-                      <th>ID</th>
-                             <th>Name</th>
-                             <th>Email</th>
-                             <th>Date</th>
-                              <th>Bus (Type)</th>
-                            <th>Bus Route</th>
-                            <th>Seat Number</th>
-                            <th>Manage</th>
+                   <h2 class="text-center">Ticket </h2>
+                      <tr> 
+                         <th> Ticket Id </th>
+                          <th> Name </th>
+                          <th> Email </th>
+                          <th> Booked On </th>
+                          <th> Bus Type </th>
+                          <th> From - To </th>
+                          <th> Reserved seat </th>
                       </tr>
                   </thead>
                                         <tbody>
@@ -83,15 +77,13 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                                 {
                                             ?>
                                             <tr>
-                                            <td><?php echo $row['id'];?></td>
+                                                <td><?php echo $row['id'];?></td>
                                                 <td><?php echo $row['name'];?></td>
                                                 <td><?php echo $row['email'];?></td>
                                                 <td><?php echo $row['created_on'];?></td>
                                                 <td><?php echo $row['bus'];?></td>
                                                 <td><?php echo $row['route'];?></td>
                                                 <td><?php echo $row['seat'];?></td>
-                                                <td><a class="btn btn-danger" href="book.php"> Cancel</a><a class="btn btn-primary" href="print.php">Ticket</a></td>
-
                                             </tr>
                                             <?php
                                             }}
@@ -102,12 +94,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <br>
 <br>
+<br>
+<br>
 
-  <!-- FOOTER -->
-  <footer class="container align-center">
-    <p class="float-right"><a href="logout.php">Log Out</a></p>
-    <p>&copy; 2020 Gerald E. Gbagbe, (Group 5) Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
