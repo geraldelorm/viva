@@ -60,8 +60,9 @@
         <div class="container">
           <div class="carousel-caption text-left">
             <h1>Affordable And Reliable.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="user/signup.php" role="button">Sign up today</a></p>
+            <p>Where do you want to go? 
+              We have got you covered.</p>
+            <p><a class="btn btn-lg btn-primary" href="user/register.php" role="button">Sign up today</a></p>
           </div>
         </div>
       </div>
@@ -70,8 +71,7 @@
         <div class="container">
           <div class="carousel-caption">
             <h1>Book a bus for your team.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#more" role="button">Learn more</a></p>
+            <p><a class="btn btn-lg btn-primary" href="user/login.php" role="button">Learn more</a></p>
           </div>
         </div>
       </div>
@@ -80,8 +80,7 @@
         <div class="container">
           <div class="carousel-caption text-right">
             <h1>Find us anywhere in the world.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="booknow.php" role="button">Quick Reservation</a></p>
+            <p><a class="btn btn-lg btn-primary" href="user/login.php" role="button">Quick Reservation</a></p>
           </div>
         </div>
       </div>
@@ -109,20 +108,19 @@
       <div class="col-lg-4">
         <img src="./assets/img/round1.jpg" class="rounded-circle" width="140" height="140">
         <h2>Affordable</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-secondary" href="#more" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="user/login.php" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="./assets/img/round2.jpg" class="rounded-circle" width="140" height="140">
         <h2>Reliable</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#more" role="button">View details &raquo;</a></p>
+        
+        <p><a class="btn btn-secondary" href="user/login.php" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="./assets/img/round3.jpg" class="rounded-circle" width="140" height="140">
         <h2>Fast</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#more" role="button">View details &raquo;</a></p>
+      
+        <p><a class="btn btn-secondary" href="user/login.php" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -134,7 +132,7 @@
     <div id="more" class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Need a catch the bus? <span class="text-muted">See buses that are going your way.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <p class="lead">
       </div>
       <div class="col-md-5">
         <img src="./assets/img/ttt1.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"   focusable="false" role="img" ><title></title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
@@ -146,7 +144,7 @@
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Once you find a bus, book a seat. <span class="text-muted">You can manage your bookings or cancel anytime.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <p class="lead">
       </div>
       <div class="col-md-5 order-md-1">
       <img src="./assets/img/ttt2.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"   focusable="false" role="img" ><title></title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>      </div>
@@ -157,7 +155,7 @@
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Oh yeah, it’s that simple. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <p class="lead">
       </div>
       <div class="col-md-5">
       <img src="./assets/img/ttt3.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"   focusable="false" role="img" ><title></title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>      </div>
