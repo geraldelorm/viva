@@ -1,6 +1,6 @@
 # VIVA: Online Bus Ticket Reservation System
 
-This is a project work that I'm working on throughout the semester. This is to demonstrate practically how to apply server-side scripting language (PHP)
+<!-- This is a project work that I'm working on throughout the semester. This is to demonstrate practically how to apply server-side scripting language (PHP)
 and MYSQL to build the backend of the application.
 
 The name VIVA was coined to be the name of this transport service provider. 
@@ -17,3 +17,4 @@ The name VIVA was coined to be the name of this transport service provider.
 
 5. Admin user privileges in updating and canceling payment, route and vehicle records.
 
+ -->
