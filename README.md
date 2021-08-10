@@ -13,8 +13,4 @@ The name VIVA was coined to be the name of this transport service provider.
 
 3. Easing bus ticket payment by incorporating electronic payment options
 
-4. The ability of customers to cancel their reservation.
- 
-5. Admin user privileges in updating and canceling payment, route and vehicle records.
 
- -->
